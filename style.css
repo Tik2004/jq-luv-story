@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Secular+One&display=swap');
+
+.content {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+
+.head-part {
+    height: 100vh;
+    background: linear-gradient(145deg, #6a4bdb, #7e59ff);
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-part h1,.head-part h2 {
+    font-family: 'Secular One',sans-serif;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+}
+
+.head-part h1 {
+    font-size: 6rem;
+    color: rgb(230, 238, 253);
+}
+
+.head-part h2 {
+    font-size: 2rem;
+    color: rgb(241, 173, 95);
+}
+
+.almost-start {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-around;
+    background: #f3729f;
+    color: white;
+}
+
+.date-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 6rem;
+
+}
+
+.date-date {
+    font-family: 'Secular One', serif;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.date-img-desc {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.date-image {
+    width: 30vh;
+    border-radius: 40px;
+    border: 1px solid #7e59ff;
+}
+
+.date-desc {
+    max-width: 300px;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 27px;
+    background: #f3729f;
+    box-shadow:  29px 29px 75px #a34c6b, 
+     -29px -29px 75px #ff98d3;
+    font-size: 1.5rem;
+}
+
+.transition-from-to {
+    color: white;
+    height: 100vh;
+    background: rgb(253, 131, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+#banastexcucyun {
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Open Sans';
+}    
+
+.footer-end {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    font-size: 1.2em;
+    background: #d93e60;
+    font-family: 'One Sans', serif;
+}
+
+.footer-end a {
+    color: rgb(0, 255, 106);
+    text-decoration: none;
+}
+
+a::after {
+    color: rgb(0, 255, 106);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
